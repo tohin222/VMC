@@ -1,0 +1,35 @@
+.bio_form{
+    border-radius: 0;
+    border-color: #F0A1BF;
+    color: #F0A1BF;
+}
+.bio_form_cnt label{
+    color: #F0A1BF;
+    font-size: 20px;
+}
+.bio_cnt h1{
+    font-weight: lighter;
+    font-size: 32px;
+}
+.bio_cnt p{
+    font-weight: lighter;
+    font-size: 16px;
+}
+.airbnb{
+    border: 1px solid #F0A1BF;
+    padding: 20px;
+}
+.airbnb  h2{
+    font-weight: normal;
+    font-size: 20px;
+    color: #F0A1BF;
+}
+.airbnb  p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #666666;
+}
+.con_btn{
+    background: #F0A1BF;
+    width: 100%;
+}

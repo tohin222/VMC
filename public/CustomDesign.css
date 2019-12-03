@@ -1,0 +1,732 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    overflow-x: hidden;
+    font-family: Shooken;
+}
+/* start Home*/
+#home button {
+    position: absolute;
+    background: #fff;
+    border: 2px solid #666666;
+    color: #F0A1BF;
+    top: 5%;
+    right: 5%;
+    z-index: 44;;
+}
+.logo{
+    width: 16%;
+    z-index: 55;
+    position: absolute;
+    left: 19%;
+    top: 22%;
+}
+
+.tv_cursor{
+   min-height: 45%;
+   min-width: 27%;
+   /* border: 5px solid red;  */
+   z-index: 22;
+   display: inline-block;
+   position: absolute;
+   left: 32%;
+   top: 35%;
+   cursor: pointer;
+}
+.mobile_cursor{
+min-height: 14%;
+min-width: 16%;
+/* border: 5px solid red; */
+z-index: 999;
+left: 40%;
+top: 56%;
+cursor: pointer;
+position: absolute;
+}
+/*end header*/
+.communityDesign:hover,
+.fashionDesign:hover {
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+}
+
+.buttonOne:hover,
+.buttonTwo:hover,
+.buttonThree:hover {
+    border: 2px solid #FFD650;
+    border-radius: 50%;
+}
+
+.calender:hover,
+.contact:hover,
+.career:hover {
+    border: 2px solid #FFFFFF;
+}
+
+.video_player {
+    position: absolute;
+}
+
+.tv_screen {
+    height: 350px;
+    width: 405px;
+    position: absolute;
+    margin-top: 256.986px;
+    margin-left: 463.712px;
+}
+
+/* start community part */
+.community_consultant_service {
+    position: relative;
+    margin-left: 30px;
+}
+
+.container_position {
+    /* position:relative; */
+    width: 100%;
+}
+
+.community_flex {
+    position: relative;
+    width: 100%;
+}
+
+.c_c_s_pop_up {
+    width: 26%;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    margin-top: -3.9%;
+
+}
+#home:hover .play_btn {
+    /* visibility: visible; */
+}
+.play_btn_1 {
+    width: 5%;
+    position: absolute;
+    left: 42%;
+    z-index: 999;
+    margin-top: -28%;
+     /* visibility: hidden; */
+}
+.pause_btn_1{
+  width: 5%;
+  position: absolute;
+  left: 42%;
+  z-index: 999;
+  margin-top: -28%;
+ visibility: hidden; 
+}
+.c_c_s_one {
+    width: 50%;
+    position: absolute;
+    left: 13%;
+    top: 0%;
+}
+
+.c_c_s_two {
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+}
+
+.c_c_s_three {
+    width: 19%;
+    position: absolute;
+    right: 2%;
+    margin-top: 4.4%;
+    cursor: pointer;
+}
+
+.c_c_s_four {
+    width: 37%;
+    position: absolute;
+    left: 13%;
+    cursor: pointer;
+    margin-top: 19.4%;
+}
+
+.c_c_s_five {
+    width: 19%;
+    position: absolute;
+    right: 30.5%;
+    margin-top: 34.6%;
+}
+
+.c_c_s_six {
+    width: 48%;
+    position: absolute;
+    right: 2%;
+    margin-top: 8.8%;
+}
+
+/* end community part */
+
+.fashion_section {
+    margin-left: 30px;
+}
+
+.fashion_flex {
+    position: relative;
+}
+
+.fashion_image {
+    position: relative;
+}
+
+.fashion_pop_up {
+    width: 20%;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    top: -56px;
+}
+
+.fashion_one {
+    z-index: 10;
+    width: 50%;
+    position: absolute;
+    left: 13%;
+    top: 0%;
+}
+
+.fashion_two {
+    z-index: 10;
+    width: 50%;
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+}
+
+.fashion_three {
+    width: 18.5%;
+    position: absolute;
+    right: 2%;
+    top: 75px;
+}
+
+.fashion_four {
+    z-index: 10;
+    width: 37%;
+    position: absolute;
+    left: 13%;
+    top: 279px;
+    cursor: pointer;
+}
+
+.fashion_five {
+    width: 19%;
+    position: absolute;
+    right: 30.5%;
+    top: 495px;
+}
+
+.fashion_six {
+    width: 48%;
+    position: absolute;
+    right: 2%;
+    top: 130px;
+}
+
+.pic_title {
+    position: absolute;
+}
+
+.fashion_slick {
+    width: 90%;
+    margin: 60px auto;
+}
+.fashion_img{
+    width: 100%;
+}
+.fashion_img img{
+    width: 100%;
+    height: 200px;
+      transition: 2s width;
+
+}
+.fashion_slick .slick-next::before,
+.fashion_slick .slick-prev::before {
+    color: #F0A1BF;
+    font-size: 50px;
+}
+.fashion_slick .slick-prev {
+        left: -4%;
+        top: 35%;
+}
+.fashion_slick .slick-next {
+    top: 35%;
+}
+.fashion_bottom_margin{
+    margin-bottom: 10px;
+}
+.fashion_slick .slick-dots li {
+  padding-left: 35px;
+} 
+.fashion_slick .slick-dots li button{
+     border: 5px solid #F0A1BF;
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+    
+}
+.fashion_slick .slick-dots li button::before {
+    font-size: 12px;
+    line-height: 20px;
+    top: 1.5px;
+    left: 35px;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    color: #fff;
+}
+.fashion_slick .slick-dots {
+    bottom: -55px;
+}
+.fashion_slick .slick-dots li.slick-active button::before {
+    color: #666666;
+    opacity: 1;
+}
+
+
+
+.carousel_design {
+    margin-top: 251.044px;
+}
+
+.communityDesign {
+    position: absolute;
+    height: 83px;
+    width: 82px;
+    /* margin-left: 62.3%;
+    margin-top: -28.7%; */
+    margin-left: 62.3%;
+    margin-top: -28.6%;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.fashionDesign {
+    position: absolute;
+    height: 84px;
+    width: 87px;
+    /* margin-left: 62.3%;
+    margin-top: -36%; */
+    margin-left: 62.3%;
+    margin-top: -36%;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.calender {
+    position: absolute;
+    margin-left: 64.2%;
+    margin-top: -20.6%;
+}
+
+.contact {
+    position: absolute;
+    margin-left: 64.5%;
+    margin-top: -16.9%;
+}
+
+.career {
+    position: absolute;
+    margin-left: 64.3%;
+    margin-top: -18.7%;
+}
+
+.footer_design {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.facebook,
+.insta,
+.lookbook,
+.snapchat,
+.pintrst {
+    height: 30px;
+    width: 30px;
+    margin-left: 35px;
+}
+
+/*modal design start here*/
+.coming_soon {
+    height: 266px;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+
+.close_button {
+    background-color: white;
+    color: #F0A1BF;
+    padding: 0px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-left: 191px;
+    border: 2px solid #F0A1BF;
+}
+
+.modal_design {
+    background-color: #CCCCCC;
+    height: 350px;
+}
+
+/*modal design end here*/
+/*input field and form design start here*/
+.form_design {
+    margin-top: -5px;
+}
+
+.margin_setting {
+    margin-top: 60px;
+    margin-left: 54px;
+}
+
+.contact_me_text {
+    color: #F0A1BF;
+}
+
+.input_field_design {
+    display: inline-block;
+    width: 400px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed #F0A1BF;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Economica', 'Arial', sans-serif;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    background-color: white;
+}
+
+.input_field_design:focus {
+    border-color: #F0A1BF;
+}
+
+.close_button_two {
+    background-color: white;
+    color: #F0A1BF;
+    padding: 0px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 2px solid #F0A1BF;
+}
+
+.submit_button {
+    background-color: white;
+    color: #F0A1BF;
+    padding: 0px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 104px;
+    margin-right: 29px;
+    border: 2px solid #F0A1BF;
+}
+
+/*.full_header{*/
+/*    margin-top: -23px*/
+/*}*/
+/*input field design end here*/
+.footer {
+    margin-top: 760px;
+}
+
+.fashion_footer {
+    margin-top: 0px;
+}
+
+/*FashionTexStyleDepartment start*/
+.fs_department_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding-right: 15px;
+}
+
+.fs_department_1>div img {
+    height: 240px;
+    width: 365px;
+
+}
+
+.fs_department_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.fashion_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margin_top {
+    margin-top: 798px;
+}
+
+.container_position_two {
+    position: relative;
+}
+
+/*FashionTexStyleDepartment end*/
+
+
+/*Career page start*/
+.career_margin_top {
+    margin-top: 15px;
+}
+
+
+.career_width {
+    height: 240px;
+    width: 100%;
+}
+
+.career_padding_right .col-md-3 {
+    padding-right: 0;
+}
+
+.career_padding_left {
+    padding-right: 10px !important;
+}
+
+/*Career page end*/
+
+/*contact button style start here*/
+.contact_video_player_design {
+    height: 100%;
+    width: 100%;
+    clip-path: inset(4% 0 5% 0);
+    margin-top: 778px;
+}
+
+.video_player_with_icon {
+    position: relative;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.video_player_design {
+    height: 100%;
+    width: 100%;
+    clip-path: inset(6% 0 7% 0);
+    margin-top: -50px;
+}
+
+.text_me {
+    position: absolute;
+    height: 68.432px;
+    width: 55.017px;
+    margin-top: -24.49%;
+    margin-left: 43.5%;
+    cursor: pointer;
+}
+
+.mail_me {
+    position: absolute;
+    height: 75.962px;
+    width: 37.413px;
+    margin-top: -28.3%;
+    margin-left: 56.4%;
+    cursor: pointer;
+}
+
+.home {
+    position: absolute;
+    height: 50.413px;
+    width: 80.962px;
+    margin-top: -25.62%;
+    margin-left: 48.6%;
+}
+
+.aer {
+    position: absolute;
+    height: 39.636px;
+    width: 61.16px;
+    margin-top: -18.5%;
+    margin-left: 45.1%;
+}
+
+.ccs {
+    position: absolute;
+    height: 42.718px;
+    width: 62.636px;
+    margin-top: -20.4%;
+    margin-left: 50.8%;
+}
+
+.ftst {
+    position: absolute;
+    height: 42.72px;
+    width: 59.349px;
+    margin-top: -22.1%;
+    margin-left: 56.8%;
+}
+
+.ftsm {
+    position: absolute;
+    height: 38.742px;
+    width: 54.522px;
+    margin-top: -15.1%;
+    margin-left: 46.8%;
+}
+.play_btn_2{
+    width: 3%;
+    position: absolute;
+    left: 47%;
+    z-index: 999;
+    margin-top: -38%;
+    /* visibility: hidden; */
+}
+
+.pause_btn_2 {
+    width: 3%;
+    position: absolute;
+    left: 47%;
+    z-index: 999;
+    margin-top: -38%;
+    visibility: hidden;
+}
+/*contact button end here*/
+.credits{
+    margin-top: 52px;
+}
+.credits  h1{
+    text-align: center;
+    font-size: 14px;
+    color: #F0A1BF;
+}
+
+
+/* calender css start */
+
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-container {
+    border: 2px solid skyblue;
+}
+
+.calendar {
+    background-color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar-header {
+    border-bottom: 1px dashed skyblue;
+    font-size: 1.6em;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 5px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 40px;
+}
+
+.week-day {
+    font-size: 0.8em;
+}
+
+.day {
+    font-size: 0.8em;
+}
+
+.day {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.current-day {
+    background-color: #4285f4;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: white;
+}
+
+.selected-day {
+    background-color: yellow;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: white;
+    border: 2px solid skyblue;
+}
+
+.month-popup div {
+    padding: 0.3em;
+}
+
+.nav-month {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    right: 3px;
+}
+
+.prev {}
+
+.next {}
+
+.editor-year {
+    max-width: 3.6em;
+}
+
+.label-month,
+.label-year {
+    font-size: 0.6em;
+}
+
+.label-month {
+    cursor: pointer;
+}
+
+/* end calender */
